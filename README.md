@@ -1,5 +1,7 @@
 # kernel
 
+* https://elinux.org/Debugging_by_printing#Printk_from_userspace
+
 ## cat kernel message
 ```
 iptables -t filter -A OUTPUT  -p udp --dport 53 -j LOG --log-prefix 'dns request: output'
